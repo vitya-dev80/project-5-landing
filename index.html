@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Agency — Modern Web Solutions</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">🚀 DigitalStudio</div>
+      <nav class="nav-links">
+        <a href="#services">Послуги</a>
+        <a href="#portfolio">Портфоліо</a>
+        <a href="#contact" class="btn btn-primary">Зв'язатися</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero секция -->
+  <section class="hero">
+    <div class="container hero-container" data-aos="fade-up">
+      <h1>Створюємо веб-сайти, які <span>продають</span></h1>
+      <p>Сучасна верстка, висока швидкість завантаження та адаптивність під усі пристрої.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Замовити проект</a>
+        <a href="#portfolio" class="btn btn-outline">Дивитися роботи</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция Услуг -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Наші послуги</h2>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="icon">💻</div>
+          <h3>Front-End Розробка</h3>
+          <p>Чистий та оптимізований код на HTML5, CSS3, JS та React/Vite.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon">📱</div>
+          <h3>Адаптивна верстка</h3>
+          <p>Ідеальне відображення на смартфонах, планшетах та моніторах.</p>
+        </div>
+        <div class="service-card" data-aos="fade-left" data-aos-delay="300">
+          <div class="icon">⚡</div>
+          <h3>Оптимізація швидкості</h3>
+          <p>Высокі бали в Google PageSpeed Insights та швидке завантаження.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция Портфолио со слайдером Swiper -->
+  <section id="portfolio" class="portfolio">
+    <div class="container" data-aos="zoom-in">
+      <h2 class="section-title">Наші роботи</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <h3>E-Commerce Store</h3>
+              <p>Інтернет-магазин електроніки з кошиком та фільтрами.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <h3>SaaS Analytics Dashboard</h3>
+              <p>Панель аналітики з інтерактивними графіками Chart.js.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <h3>Crypto Tracker App</h3>
+              <p>Сервіс відстеження курсів криптовалют у реальному часі.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция контактов -->
+  <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Обговорити проект</h2>
+      <form id="form" class="contact-form">
+        <input type="text" name="name" placeholder="Ваше ім'я" required />
+        <input type="email" name="email" placeholder="Ваш Email" required />
+        <textarea name="message" placeholder="Опишіть ваше завдання" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Надіслати заявку</button>
+      </form>
+    </div>
+  </section>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
