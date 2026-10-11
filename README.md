@@ -5,7 +5,6 @@
 ---
 
 ## 🔗 Live Demo & Links
-## 🔗 Live Demo & Links
 - **🌐 Жива версія (Live Demo):** https://vitya-dev80.github.io/project-5-landing/
 - **💻 GitHub Репозиторій:** https://github.com/vitya-dev80/project-5-landing
 
